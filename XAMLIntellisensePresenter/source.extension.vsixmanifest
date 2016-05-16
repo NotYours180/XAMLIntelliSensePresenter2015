@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="XAMLIntellisensePresenter.KarlShifflett.DF17B70C-24E9-4005-9241-818F969366E3">
+    <Name>XAML Intellisense Presenter for Visual Studio 2015</Name>
+    <Author>Karl Shifflett</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">Provides custom IntelliSense viewer for the Visul Studio 2015 XAML Editor.
+
+Features include camel case lookup, optional narrowing filter and several optional filters to limit items listed.</Description>
+    <Locale>1033</Locale>
+    <License>ms-pl.txt</License>
+    <Icon>intellisensefilter.png</Icon>
+    <PreviewImage>logo.png</PreviewImage>
+    <SupportedProducts>
+      <VisualStudio Version="14.0">
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References />
+  <Content>
+    <MefComponent>|%CurrentProject%|</MefComponent>
+  </Content>
+</Vsix>
